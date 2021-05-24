@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, div{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:'Yellowtail', cursive;
+}
+
+.container{
+    max-width: 1500px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+.top-side{
+    padding: 180px 0 100px 0;
+    background-image: url(your\ \(3\)-1.jpg);
+    background-size: cover;
+    color:black;
+    text-align: center;
+    background-color: black;
+}
+
+.top-side h1{
+    opacity: 0.6;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    font-family: Comic Sans MS;
+}
+
+.top-side p{
+    font-size:20px;
+}
+
+.btn{
+    padding: 12px 24px;
+    color:black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover{
+    opacity:1;
+}
+
+.btn-top{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-top p{
+    margin:20px 0;
+}
+
+.kustom{
+background-color:turquoise;
+width:50%;
+font-size:30px;
+font-weight: bold;
+}
+
+.catalog{
+background-color: turquoise;
+width:50%;
+font-size:30px;
+font-weight:bold;
+}
+
+.middle-side{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(5kaos.jpg);
+    background-size:cover ;
+    text-align: center;
+    background-color: black;
+}
+
+.middle-side h2{
+    font-weight:normal;
+    padding-top:20px;
+}
+
+.order{
+    background-color:chartreuse;
+    width:50%;
+    font-size:30px;
+    font-weight: bold;
+    margin-top:20px;
+    box-shadow:0 6px #1a7940;
+}
+
+.order:active{
+    box-shadow:none;
+    position:relative;
+    top: 6px;
+}
+
+.bottom-side{
+   padding-top:50px;
+   background-color: white;
+   padding-left:30px;
+}
+
+.hub-kami{
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+
+.bottom-side p{
+    margin:5px;
+    font-size:16px;
+}
+
+input, textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:2px solid #dee7ec;
+}
+
+.kumpul{
+   background-color:darkcyan;
+   color:black;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color:silver;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+footer{
+    background-color: silver;
+    color:black;
+    height: 60px;
+    padding: 10px;
+}
+
+.logo{
+    width:55px;
+    height:65px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.header-left{
+    float:left;
+}
+
+.header-right{
+    float:right;
+    margin-right: -25px;
+}
+
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fas{
+    margin-right:5px;
+}
+
+.menu-icon{
+    color: silver;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+}
+
+
+  .header-right button{
+    line-height: 35px;
+    padding: 0px 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    margin-top:15px;
+  }

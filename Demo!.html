@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo!</title>
+    <link rel="stylesheet" href="Demo!.css">
+    <link rel="stylesheet" href="Demo-Responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="container">
+            <div class="header-left">
+            <img class="logo" src="your-1.jpg" alt="">
+            </div>
+            <span class="fas fa-ellipsis-h menu-icon"></span>
+            <div class="header-right">
+                <button onclick="myFunction()">Dark mode</button>
+                <a href="#">Produk</a>
+                <a href="#">Daftar</a>
+                <a href="#" class="login">Log in</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="top-side">
+        <div class="container">
+            <h1>CUSTOM DENGAN DESIGN SENDIRI.</h1>
+            <h1>MILIKI KAOS ALA GAYA KAMU.</h1>
+            <p>your custom concept adalah online store yang menjual kaos custom</p>
+            <p>Kami menawarkan kaos yang bisa dicetak sesuai design yang kamu inginkan dan pastinya dengan kualitas tinggi dan harga yang terjangkau</p>
+        </div>
+        <div class="btn-top">
+            <a href="#" class="btn kustom">
+            <span class="fas fa-tshirt"></span>
+            CUSTOM SENDIRI</a>
+            <p>atau</p>
+            <a href="#" class="btn catalog">
+            <span class="fas fa-store"></span>
+            CATALOG DESIGN KAMI</a>
+        </div>
+    </div>
+
+    <div class="middle-side">
+        <div class="container">
+            <div class="head-mid">
+                <h2>Ayo miliki kaos impianmu sekarang!</h2>
+            </div>
+            <div class="btn-mid">
+                <a href="#" class="btn order">
+                    <span class="fas fa-shopping-cart"></span>
+                    Order sekarang.</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-side">
+            <h3 class="hub-kami">Hubungi Kami</h3>
+                <p>Email anda</p>
+                <input>
+                <p>Pesan</p>
+                <textarea></textarea>
+                <p>*Kirim</p>
+                <input class=kumpul type=submit value=Kirim>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Custom Concept.id</p>
+            <p>Bring your ideas to reality.</p>
+        </div>
+    </footer>
+      <script>
+                        function myFunction() {
+                            var element = document.body;
+                            element.classList.toggle("dark-mode");
+                            if (document.getElementsByClassName("top-side")[0].style.backgroundImage === "none") {
+                                document.getElementsByClassName("top-side")[0].style.backgroundImage="url('your\ \(3\)-1.jpg')";
+                                document.getElementsByClassName("top-side")[0].style.color="black";
+                                document.getElementsByClassName("middle-side")[0].style.backgroundImage="url('5kaos.jpg')";
+                                document.getElementsByClassName("middle-side")[0].style.color="black";
+                                document.getElementsByClassName("bottom-side")[0].style.color="black";
+                                document.getElementsByClassName("bottom-side")[0].style.backgroundColor = "white";
+                            } else {
+                                document.getElementsByClassName("top-side")[0].style.backgroundImage = "none";
+                                document.getElementsByClassName("top-side")[0].style.color="white";
+                                document.getElementsByClassName("middle-side")[0].style.color="white";
+                                document.getElementsByClassName("middle-side")[0].style.backgroundImage = "none";
+                                document.getElementsByClassName("bottom-side")[0].style.color="white";
+                                document.getElementsByClassName("bottom-side")[0].style.backgroundColor = "black";
+                            }
+                        }
+                    </script>
+</body>
+</html>
